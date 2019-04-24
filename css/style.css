@@ -1,0 +1,165 @@
+body{
+    background: url(../img/bg.jpg);
+    font-family: Tahoma, sans-serif;
+    background-repeat: repeat-x;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #fff;
+    height: 175px;
+    box-shadow: 0px 5px 10px 0px #000;
+}
+
+.logo{
+    display: block;
+    position: relative;
+    bottom: -11px;
+    left: 20px;
+    float: left;
+}
+
+.info{
+    display: block;
+    float: right;
+    margin-right: 32px; 
+    width: 320px;
+}
+
+.contacts{
+    float: right;
+}
+
+.contacts span{
+    display: block;
+    color: #298198;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 125px;
+}
+
+.countries{
+    display: block;
+    clear: both;
+    padding-top: 19px;
+}
+
+.countries a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    width: 42px;
+}
+
+.countries span{
+    font-size: 10px;
+    text-decoration: underline;
+    color: #298198;   
+}
+
+.countries a:last-child {
+    margin-right: 0;
+}
+
+.banner{
+    background: url(../img/banner.png);
+    height: 234px;
+    background-repeat: no-repeat;
+    border-top: 1px solid #298198;
+    border-bottom: 1px solid #298198;
+    box-shadow: 0px 5px 10px 0px #000;
+}
+
+.menu{
+    background: #333333; 
+    border-bottom: 1px solid #000;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0px 5px 10px 0px #000;
+}
+
+.menu a{
+    color: #fff;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.menu li{
+    overflow: auto;
+    float: left;
+    margin:0 35px;
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+}
+
+.text{
+    background: #fff;
+    box-shadow: 0px 5px 10px 0px #000;
+    height: 546px;
+}
+
+.left_text{
+    float: left;
+    width: 210px;
+    height: 546px;
+    background: #e4e5e7;
+    border-right: 1px solid #c3c4c4;
+    color: #424c43;
+    overflow: hidden;
+}
+
+.name{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 52px;
+}
+
+.text li{
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+.right_text{
+    float: right;
+    width: 210px;
+    height: 546px;
+    background: #e4e5e7;
+    border-left: 1px solid #c3c4c4;
+    color: #424c43;
+    overflow: hidden;
+}
+
+.menu_down{
+    float: none;
+    width: 150px;
+    height: 125px;
+    display: block;
+    background: #333333;
+    overflow: none;
+    position: absolute;
+    margin-left: 150px;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    box-shadow: 0px 5px 10px 0px #000;
+}
+
+.foot{
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    width: 1000px;
+    line-height: 34px;
+    text-align: center;
+}
